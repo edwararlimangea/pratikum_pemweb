@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/berita.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin | Kepolisian</title>
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class=""></i>
+        <span class="logo_name">TribunNews</span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="/Berita/index.html" class="active">
+            <i class="bx bx-grid-alt"
+              ><ion-icon name="storefront-outline"></ion-icon
+            ></i>
+            <span class="links_name">HOME</span>
+          </a>
+        </li>
+        <li>
+          <a href="/Home/index.html">
+            <i class="bx bx-list-ul"
+              ><ion-icon name="newspaper-outline"></ion-icon
+            ></i>
+            <span class="links_name">Berita Terkini</span>
+          </a>
+        </li>
+        <li>
+          <a href="/Berita/isi.html">
+            <i class="bx bx-list-ul"
+              ><ion-icon name="cloud-upload-outline"></ion-icon
+            ></i>
+            <span class="links_name">Proses Kepolisan</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-log-out"
+              ><ion-icon name="log-out-outline"></ion-icon
+            ></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <nav>
+        <div class="sidebar-button">
+          <i class="bx bx-menu sidebarBtn"
+            ><ion-icon name="list-outline"></ion-icon
+          ></i>
+        </div>
+        <div class="profile-details">
+          <span class="admin_name"> Admin</span>
+        </div>
+      </nav>
+      <div class="home-content">
+        <h3>Berita</h3>
+        <button type="button" class="btn btn-tambah">
+          <a href="#">Tambah Data</a>
+        </button>
+        <table class="table-data">
+          <thead>
+            <tr>
+              <th scope="col" style="width: 20%">Foto Pelaku</th>
+              <th scope="col" style="width: 35%">Judul Berita</th>
+              <th scope="col" style="width: 20%">
+                Tanggal, bulan dan tahun kejadian
+              </th>
+              <th scope="col" style="width: 30%">Perbaharui</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img
+                  src="https://asset-2.tstatic.net/tribunnews/foto/bank/images/enam-remaja-12233.jpg"
+                  alt=""
+                  width="100%"
+                />
+              </td>
+              <td>
+                Polisi Amankan 6 Orang yang Diduga hendak perang sarung di
+                sukabumi
+              </td>
+              <td>27 Agustus 2025</td>
+              <td>
+                <button class="btn-edit" onclick="editCategory()">Edit</button>
+                <button class="btn-delete" onclick="deleteCategory()">
+                  Hapus
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="https://asset-2.tstatic.net/banten/foto/bank/images/Pelatih-Timnas-Indonesia-Shin-Tae-yong.jpg"
+                  alt=""
+                  width="100%"
+                />
+              </td>
+              <td>
+                Timnas Dapat Dukungan dari Bek Chelsea untuk Berjuang di Piala
+                Asia 2023: Indonesia Pasti Menang,
+              </td>
+              <td>24 Desember 2023</td>
+              <td>
+                <button class="btn-edit" onclick="editCategory()">Edit</button>
+                <button class="btn-delete" onclick="deleteCategory()">
+                  Hapus
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="https://asset-2.tstatic.net/tribunnews/foto/bank/images/3-tsk1233.jpg"
+                  alt=""
+                  width="100%"
+                />
+              </td>
+              <td>
+                Tampang dan Peran 3 Tersangka Kasus Mencampur Pertalite dengan
+                Air di SPBU Bulanbulan Kota Bekasi
+              </td>
+              <td>27 Maret 2024</td>
+              <td>
+                <button class="btn-edit" onclick="editCategory()">Edit</button>
+                <button class="btn-delete" onclick="deleteCategory()">
+                  Hapus
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
