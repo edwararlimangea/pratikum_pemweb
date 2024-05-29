@@ -1,0 +1,59 @@
+.home-section .home-content {
+  position: relative;
+  padding-top: 104px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn {
+  background-color: #0a0ae7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-tambah {
+  margin: 10px 0;
+}
+
+.btn-simpan {
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #eba416;
+}
+
+.table-data {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 5px 20px;
+}
+.form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(148, 148, 148);
+}
